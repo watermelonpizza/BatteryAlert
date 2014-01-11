@@ -26,7 +26,7 @@ namespace Battery_Alert
 
             notifyIcon1.Visible = true;
         }
-
+         
         void t_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
             ObjectQuery query = new ObjectQuery("Select EstimatedChargeRemaining FROM Win32_Battery");
